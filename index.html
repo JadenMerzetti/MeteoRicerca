@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Page Title</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Weather Dashboard</h1>
+  </header>
+
+  <div class =  "parent-section">
+  <section class = "search-panel">
+    <h2>Search for a City</h2>
+    <div class="search-bar">
+        <input type="text" id="cityInput" type="text" placeholder="Search...">
+        <button id= "search" >Search</button>
+        <div id= "searchHistory"></div>
+      </div>
+    
+  </section>
+
+  <section class = "region">
+    <h2><span class="State">Date:</span> <span class="DateT"></span> <span class = "icon"></span></h2>
+    <ul> 
+        <li><span class="label">Temp:</span> <span class= "tempT "></span> <span> F </span></li>
+      <li><span class="label">Wind:</span> <span class="windT"></span> <span> m/s </span> </li>
+      <li><span class="label">Humidity:</span> <span class="humidityT"></span></li>
+      </ul>
+  </section>
+
+  <section class = "forcast">
+    <h2>Five Day Forcast:</h2>
+    <div class="rectangles">
+        <div class="rectangle">
+            <ul> <li><span class="Date"></span></li>
+                <li><span class="label">Temp:</span> <span class="temp1">-</span> <span> F </span></li>
+      <li><span class="label">Wind:</span> <span class="wind1">-</span> <span> m/s </span></li>
+      <li><span class="label">Humidity:</span> <span class="humidity1">-</span></li>
+ 
+            </ul>
+        </div>
+
+        <div class="rectangle">
+            <ul> <li><span class="Date"></span></li>
+                <li><span class="label">Temp:</span> <span class="temp2">-</span> <span> F </span> </li>
+      <li><span class="label">Wind:</span> <span class="wind2">-</span> <span> m/s </span> </li>
+      <li><span class="label">Humidity:</span> <span class="humidity2">-</span></li>
+ 
+            </ul>
+        </div>
+
+        <div class="rectangle">
+            <ul> <li><span class="Date"></span></li>
+                <li><span class="label">Temp:</span> <span class="temp3">-</span> <span> F </span> </li>
+      <li><span class="label">Wind:</span> <span class="wind3">-</span> <span> m/s </span> </li>
+      <li><span class="label">Humidity:</span> <span class="humidity3">-</span></li>
+ 
+            </ul>
+        </div>
+        
+        <div class="rectangle">
+            <ul> <li><span class="Date"></span></li>
+                <li><span class="label">Temp:</span> <span class="temp4">-</span> <span> F </span></li>
+      <li><span class="label">Wind:</span> <span class="wind4">-</span> <span> m/s </span> </li>
+      <li><span class="label">Humidity:</span> <span class="humidity4">-</span></li>
+ 
+            </ul>
+        </div>
+
+        <div class="rectangle">
+            <ul> <li><span class="Date"></span></li>
+                <li><span class="label">Temp:</span> <span class="temp5">-</span> <span> F </span> </li>
+      <li><span class="label">Wind:</span> <span class="wind5">-</span> <span> m/s </span> </li>
+      <li><span class="label">Humidity:</span> <span class="humidity5">-</span></li>
+ 
+            </ul>
+     
+<script src="script.js"></script>
+</body>
+</html>
